@@ -1,0 +1,739 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.header-box {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Estilo barra negra*/
+.nav-top {
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    width: 1024px;
+    height: 20px;
+    left: calc(50% - 1024px/2);
+    top: 0px;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+
+.nav-top-1 {
+    Width: 138px;
+    Height: 12px;
+    margin-left: 90px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.nav-top-2 {
+    Width: 80px;
+    Height: 12px;
+    margin-right: 60px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.color-texto-nav {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+
+.nav-top-i1 {
+    Width: 138px;
+    Height: 12px;
+    display: flex;
+    color: white;
+    overflow: visible;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+}
+
+.nav-top-i2 {
+    Width: 36px;
+    Height: 12px;
+    display: flex;
+    overflow: visible;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-top-i3 {
+    Width: 26px;
+    Height: 12px;
+    display: flex;
+    overflow: visible;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+/*estilo barra naranja*/
+.nav-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1024px;
+    height: 62px;
+    left: calc(50% - 1024px/2);
+    top: 20px;
+    background-color: #F0A83E;
+
+
+}
+
+.nav-bottom-logo {
+    display: flex;
+    width: 166px;
+    height: 23px;
+    margin-left: 40px;
+    margin-top: 19px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-bottom-logo-i1 {
+    display: flex;
+    width: 15.68px;
+    height: 13.12px;
+    left: 40px;
+    top: 43px;
+    background-image: url('../img/Cat-logo1.png');
+    overflow: visible;
+    align-items: center;
+}
+
+.nav-bottom-logo-i4 {
+    width: 18.38px;
+    height: 14.38px;
+    left: 188px;
+    top: 40px;
+    display: flex;
+    background-image: url('../img/Dog-logo4.png');
+    overflow: visible;
+    align-items: center;
+}
+
+.color-texto-logo-i2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #3C2313;
+}
+
+.color-texto-logo-i3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.color-texto-nav-bottom {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+.nav-bottom-1 {
+    Width: 343px;
+    Height: 15px;
+    margin-right: 40px;
+    margin-top: 23px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bottom-icono {
+    display: flex;
+    width: 15px;
+    height: 14px;
+    margin-right: 0;
+    top: 44px;
+    background-image: url('../img/patita.png');
+    overflow: visible;
+    align-items: center;
+}
+
+.nav-bottom-1a {
+    display: flex;
+    justify-content: stretch;
+}
+
+.nav-bottom-1-i1 {
+    width: 64px;
+    height: 14px;
+    left: calc(50% - 64px/2 + 177px);
+    top: 44px;
+    display: flex;
+    overflow: visible;
+    text-align: justify;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-bottom-1-i2 {
+    width: 27px;
+    height: 14px;
+    left: calc(50% - 64px/2 + 177px);
+    top: 44px;
+    display: flex;
+    overflow: visible;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bottom-1-i3 {
+    width: 54px;
+    height: 14px;
+    left: calc(50% - 64px/2 + 177px);
+    top: 44px;
+    display: flex;
+    overflow: visible;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bottom-1-i4 {
+    width: 74px;
+    height: 14px;
+    left: calc(50% - 64px/2 + 177px);
+    top: 44px;
+    display: flex;
+    overflow: visible;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.Encabezado {
+    display: flex;
+    flex-direction: column;
+    width: 1025px;
+    height: 409px;
+    background-image: url('../img/imagenPrincipal.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: space-around;
+
+}
+
+
+.Titulos {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 156px;
+    margin-bottom: 107px;
+    margin-right: 12px;
+
+
+}
+
+#Titulo1 {
+    display: flex;
+    width: 365px;
+    height: 54px;
+    background-color: white;
+    font-size: 30px;
+    color: #3C2313;
+    justify-content: center;
+    align-items: center;
+}
+
+#Titulo2 {
+    display: flex;
+    width: 190px;
+    height: 19px;
+    left: 648px;
+    top: 237px;
+    font-size: 16px;
+    color: #3C2313;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#Titulo3 {
+    display: flex;
+    width: 141px;
+    height: 49px;
+    left: 767px;
+    top: 334px;
+    background-color: #F0A83E;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* cards productos*/
+.productos-destacados {
+    display: flex;
+    flex-direction: column;
+    width: 1024px;
+    height: 522px;
+    left: 95px;
+    top: 510px;
+
+}
+
+.productos-top {
+    display: flex;
+    flex-direction: column;
+    width: 1024px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.productos-top-menu {
+    font-size: 15px;
+    color: #666666;
+    text-decoration: none;
+}
+
+.formato-top-menu {
+    text-decoration: none;
+}
+
+#logo-central-patita {
+    display: flex;
+    overflow: visible;
+    width: 67px;
+    height: 71px;
+    background-image: url('/petshop/img/patitacentral.png');
+    left: calc(50% - 67px/2 + 0.5px);
+    top: 510px;
+    align-items: center;
+    margin-bottom: 9.51px;
+}
+
+#productos-top-titulo {
+    display: flex;
+    width: 406px;
+    height: 47px;
+    margin: 0;
+    padding: 0;
+}
+
+.formato-titulo {
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    color: #3C2313;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.productos {
+    display: flex;
+    flex-direction: row;
+    width: 1024px;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.card-producto1 {
+    width: 265px;
+    height: 312px;
+    background: #FBFAF6;
+    align-content: center;
+    margin: 49px 20px 78px 95px;
+}
+
+.imagen-producto1 {
+    display: flex;
+    overflow: visible;
+    width: 265px;
+    height: 268.86px;
+    background-image: url('/petshop/img/churrasquito.png');
+}
+
+.descripcion-producto {
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+    background: #FBFAF6;
+    text-align: center;
+}
+
+.descripcion-producto-text {
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+    background: #FBFAF6;
+    text-align: center;
+}
+
+.precio-producto {
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E;
+    background: #FBFAF6;
+    text-align: center;
+}
+
+.card-producto2 {
+
+    align-items: center;
+    width: 265px;
+    height: 312px;
+    background: #FBFAF6;
+    margin: 49px 20px 78px 0px;
+}
+
+.imagen-producto2 {
+    display: flex;
+    overflow: visible;
+    width: 262.03px;
+    height: 266.86px;
+    background-image: url('/petshop/img/comedero.png');
+}
+
+.card-producto3 {
+
+    align-items: center;
+    width: 265px;
+    height: 312px;
+    background: #FBFAF6;
+    margin: 49px 95px 78px 0px;
+}
+
+.imagen-producto3 {
+    display: flex;
+    overflow: visible;
+    width: 265px;
+    height: 268.86px;
+    background-image: url('/petshop/img/Huesito.png');
+}
+
+/************ contacto***********/
+.contenedor-contacto {
+    display: flex;
+    flex-direction: column;
+    width: 1024px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 264px;
+    margin-top: 78px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+h2 {
+    display: flex;
+    width: 143px;
+    height: 29px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #3C2313;
+    text-align: center;
+    align-items: center;
+}
+
+.contenedor-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-contacto1 {
+    display: flex;
+    width: 340px;
+    height: 40px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    color: white;
+    justify-content: center;
+    text-align: left;
+    font-size: 9px;
+}
+
+.texto-contacto2 {
+    display: flex;
+    width: 340px;
+    height: 40px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    color: white;
+    justify-content: center;
+    text-align: left;
+    font-size: 9px;
+}
+
+.texto-contacto3 {
+    display: flex;
+    width: 340px;
+    height: 40px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    color: white;
+    justify-content: center;
+    text-align: left;
+    font-size: 9px;
+}
+
+.botones-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton1 {
+    width: 110px;
+    height: 34px;
+    background: #8A8787;
+    border-radius: 15px;
+    font-size: 16px;
+    color: white;
+
+}
+
+.boton2 {
+    width: 110px;
+    height: 34px;
+    background: #F0A83E;
+    border-radius: 15px;
+    font-size: 16px;
+    color: white;
+
+}
+
+/* footer*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1024px;
+    height: 60px;
+    left: calc(50% - 1024px/2);
+    top: 1449px;
+    background-color: #F0A83E;
+    align-items: center;
+
+
+}
+
+.footer-top-title {
+    display: flex;
+}
+
+.footer-top-botones {
+    display: flex;
+}
+
+.footer-top1 {
+    width: 288px;
+    height: 23px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+
+
+.footer-top2 {
+    width: 271px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    font-size: 9px;
+    margin: 10px 5px 10px auto;
+    border: none;
+
+}
+
+
+
+.footer-top3 {
+    width: 70px;
+    height: 34px;
+    background: #3C2313;
+    border-radius: 15px;
+    font-size: 9px;
+    color: white;
+    margin: 13px 47px 13px auto;
+}
+
+/****parte del medio del footer****/
+.footer-medio {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #3C2313;
+    height: 284px;
+    width: 1024px;
+}
+
+.footer-medio-datos {
+    display: flex;
+    flex-direction: column;
+    width: 259px;
+    height: 238px;
+    justify-content: space-around;
+    align-content: center;
+    margin: 23px auto 23px 70px;
+}
+
+.footer-medio1 {
+    display: flex;
+    width: 179px;
+    height: 66px;
+    align-content: flex-end;
+}
+
+.footer-icono1 {}
+
+.footer-localidad {}
+
+.footer-medio-titulo {
+    font-size: 20px;
+    color: white;
+
+}
+
+.footer-medio-text {
+    font-size: 10px;
+    color: white;
+
+}
+
+.footer-medio2 {
+    display: flex;
+    width: 181px;
+    height: 66px;
+}
+
+.footer-icono2 {}
+
+.footer-telefono {}
+
+.footer-medio3 {
+    display: flex;
+    width: 259px;
+    height: 66px;
+}
+
+.footer-icono3 {}
+
+.footer-correo {}
+
+.footer-logo {
+    display: flex;
+    height: 23px;
+    margin: 130px 70px 131px auto;
+}
+
+.footer-logo1 {
+    display: flex;
+    width: 166px;
+    height: 23px;
+    margin-left: 40px;
+    margin-top: 19px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-logo-i1 {
+    display: flex;
+    width: 15.68px;
+    height: 13.12px;
+    left: 40px;
+    top: 43px;
+    background-image: url('../img/Cat-logo1.png');
+    overflow: visible;
+    align-items: center;
+}
+
+.footer-logo-i4 {
+    width: 18.38px;
+    height: 14.38px;
+    left: 188px;
+    top: 40px;
+    display: flex;
+    background-image: url('../img/Dog-logo4.png');
+    overflow: visible;
+    align-items: center;
+}
+
+.color-texto-logo-f2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.color-texto-logo-f3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #F0A83E;
+}
+
+
+
+footer {}
+
+.footer-bottom {
+    background-color: black;
+    color: white;
+    width: 1024px;
+    height: 20px;
+    bottom: 0px;
+}
+
+.texto-footer-bottom {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    margin: 4px auto;
+}

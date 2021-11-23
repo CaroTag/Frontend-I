@@ -1,0 +1,43 @@
+h1{background-color: #26578f;text-align: center;color: white;letter-spacing: 7px;}
+h2{background-color: #26578f;color:rgb(240, 234, 234);letter-spacing: 7px;}
+
+footer{background-color: rgb(53, 148, 185);text-align:center;}
+.centrado{ display:block;
+
+    margin-left: auto;
+    
+    margin-right: auto;
+
+    width: 170px; height: 224px;
+}
+.datos{font-weight: bold; font-style: italic;}
+.fecha{font-weight: bold;
+    font-display: inline-block;
+    float: left;
+    font-size: 15px;
+    line-height: 1;
+    margin: 0 0 0.5cm 0;
+    width: 120px;
+}
+.alineacionLista{
+    font-display: inline-block;
+    float: rigth;
+    font-size: 15px;
+    line-height: 1;
+    margin: 0 0 0.6cm 0;
+    width: 240px;
+}
+
+header{background-image: url('img/encabezado.jpg'); background-repeat: no-repeat;}
+
+#sobreMi{text-align:right ; font-size: 40px;font-family: Georgia, 'Times New Roman', Times, serif;
+
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;}
+
+.tipografia{font-family: Cambria;}
+
+.icon {
+    vertical-align: middle;
+}
